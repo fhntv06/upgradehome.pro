@@ -5,3 +5,11 @@
     padding: 10px 12px;
     border-bottom: 1px solid #fff;
 }
+.underline.active {
+    color: #47AA86;
+    border-color: #47AA86;
+}
+.underline.active:hover {
+    color: #fff;
+    border-color: #fff;
+}
