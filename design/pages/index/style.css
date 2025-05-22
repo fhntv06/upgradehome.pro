@@ -28,10 +28,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.hero-prefix {
-    color: #767676;
+    padding: 0 120px;
 }
 main h1 {
     z-index: 1;
@@ -40,13 +37,31 @@ main h1 {
     margin-bottom: 80px;
     color: #EAEAEA;
     text-align: center;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
 }
+
+.hero-prefix {
+    color: #767676;
+}
+
+
+/* hero-tabs */
 .hero-tabs {
     display: flex;
     column-gap: 48px;
+    margin-bottom: 72px
+}
+.hero-tabs p:hover {
+    color: #6A9E83;
+    border-color: #6A9E83;
+    cursor: pointer;
 }
 .hero-tabs .active {
     color: #47AA86;
     border-color: #47AA86;
+}
+.hero__arrow-down {
+    
 }
 
