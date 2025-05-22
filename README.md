@@ -15,3 +15,6 @@
 
 В каждой папке страницы для индексной (design/pages/index) имеется свой файл style.css
 В каждой папке компонента для blog-card (design/components/blog-card) имеется свой файл style.css
+
+Ассеты:
+- файлы для страниц кладем в папку design/pages/[you_page]/images/
