@@ -1,0 +1,36 @@
+.text-container-with-photo {
+    margin-bottom: 90px;
+}
+.text-container-with-photo__columns {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+.text-container-with-photo__column {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.text-container-with-photo__column p,
+.text-container-with-photo__column blockquote {
+    grid-column: 1/-1;
+}
+.text-container-with-photo__column .photo {
+    grid-column: span 3;
+    display: flex;
+    height: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.text-container-with-photo__column .photo .signature {
+    width: max-content;
+    padding: 4px 12px;
+    margin-top: auto;
+    border-radius: 8px;
+    background-color: #000;
+}
