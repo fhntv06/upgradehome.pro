@@ -1,0 +1,39 @@
+.text-container {
+    padding: 0 40px;
+    margin-bottom: 90px;
+    font-weight: 200;
+}
+.text-container__title {
+    font-family: "Unbounded", sans-serif;
+    margin-bottom: 32px;
+}
+.text-container__columns {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+.text-container__left-column {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(12, 6fr);
+    row-gap: 32px;
+}
+.text-container__left-column p {
+    grid-column: 1/-1;
+}
+.text-container__right-column {
+    grid-column: 8/ span 5;
+    display: grid;
+    grid-template-columns: repeat(12, 5fr);
+    row-gap: 32px;
+}
+.text-container__blockquote {
+    grid-column: 1/ -1;
+}
+
+.text-container ol {
+    grid-column: 1/-1;
+    list-style-type: none; /* Отключаем стандартную нумерацию */
+    counter-reset: my-counter; /* Создаем счетчик */
+    padding-left: 20px;
+}
