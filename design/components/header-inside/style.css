@@ -1,7 +1,8 @@
 .header {
     display: flex;
     flex-direction: column;
-    padding: 30px 40px 0;
+    padding: 30px 40px 14px;
+    width: 100%;
 }
 .header__header {
     display: flex;
@@ -60,6 +61,7 @@
     row-gap: 10px;
     width: 170px;
     padding: 14px 10px 0;
+    background-color: #1A1A1A;
 }
 .header__significance-menu__items:after {
     content: '';

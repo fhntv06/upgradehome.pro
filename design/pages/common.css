@@ -21,6 +21,15 @@ header {
     padding: 32px 40px 26px;
     background-color: #1A1A1A;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 60px;
+    padding: 0 40px 20px;
+}
 body {
     min-height: 100vh;
     background-color: #1A1A1A;
@@ -28,7 +37,15 @@ body {
     color: #EAEAEA;
 }
 main {
-    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+    overflow: hidden;
+}
+.main {
+    margin-top: 0;
 }
 section {
     padding: 0 40px;

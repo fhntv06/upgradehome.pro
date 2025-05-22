@@ -6,13 +6,6 @@ header .source {
     top: 22px;
     right: 40px;
 }
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
 main h1 {
     z-index: 2;
     position: relative;
@@ -191,40 +184,11 @@ main h2 {
     margin-bottom: 120px;
 }
 
-/* FOOTER */
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 60px;
-    padding: 0 40px 20px;
-}
-.footer .footer__header {
-    display: flex;
-    justify-content: space-between;
-}
-.footer .footer__logo {
-    display: flex;
-    column-gap: 20px;
-    align-items: end;
-}
-.footer .footer__logo__description {
-    max-width: 265px;
-}
-.footer__footer {
-    display: flex;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-.footer .footer__sources {
-    display: flex;
-    column-gap: 28px;
-}
-.footer .footer__socials {
-    display: flex;
-    column-gap: 20px;
-}
+
+
+
+
+
 
 
 
