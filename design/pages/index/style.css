@@ -11,29 +11,61 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: calc(80px + 100px);
-}
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 120px;
+    overflow: hidden;
 }
 main h1 {
-    z-index: 1;
+    z-index: 2;
     position: relative;
     margin-top: 40px;
     margin-bottom: 80px;
     color: #EAEAEA;
     text-align: center;
+    mix-blend-mode: difference;
 }
 main h1,
 main h2 {
     font-family: "Unbounded", sans-serif;
     font-weight: 400;
 }
-
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 120px;
+    margin-top: calc(80px + 100px)
+}
+.hero .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-bg {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+}
+.hero-bg .hero-bg-1 {
+    left: -281px;
+    background-image: url("./images/hero-bg_1.png");
+}
+.hero-bg .hero-bg-2 {
+    right: -250px;
+    background-image: url("./images/hero-bg_1.png");
+}
+.hero-bg .hero-bg-1,
+.hero-bg .hero-bg-2 {
+    position: absolute;
+    top: 50px;
+    width: 562px;
+    height: 562px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .hero-prefix {
     color: #767676;
 }
@@ -78,6 +110,19 @@ main h2 {
     background-position: left center;
     pointer-events: none;
 }
+@media (max-width: 1920px) {
+    .green-lines__bg {
+        width: 80%;
+        height: 150%;
+    }
+}
+@media (max-width: 1440px) {
+    .green-lines__bg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .green-lines__points {
     width: 100%;
     height: 100%;
