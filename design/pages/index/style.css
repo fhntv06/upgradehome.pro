@@ -26,6 +26,9 @@ main h1 {
     margin-bottom: 80px;
     color: #EAEAEA;
     text-align: center;
+}
+main h1,
+main h2 {
     font-family: "Unbounded", sans-serif;
     font-weight: 400;
 }
@@ -121,13 +124,71 @@ main h1 {
     left: 705px;
 }
 
+/* significance */
+.significance {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    padding: 0 40px;
+    margin-bottom: 120px;
+}
+.significance .title {
+    grid-column: span 5;
+    margin-bottom: 48px;
+}
 
-
-
-
-
-
-
+/* images card */
+.card__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    pointer-events: none;
+}
+.integrated-approach {
+    top: -50px;
+    right: -50px;
+    width: 184px;
+    height: 185px;
+    background-image: url("./images/significance-card_1.png");
+}
+.innovation {
+    top: -70px;
+    right: -70px;
+    width: 248px;
+    height: 248px;
+    background-image: url("./images/significance-card_2.png");
+}
+.reliability {
+    top: -100px;
+    right: -100px;
+    width: 286px;
+    height: 286px;
+    background-image: url("./images/significance-card_3.png");
+}
+.safety {
+    top: -70px;
+    right: -70px;
+    width: 252px;
+    height: 252px;
+    background-image: url("./images/significance-card_4.png");
+}
+.personalization {
+    top: -50px;
+    right: -50px;
+    width: 191px;
+    height: 191px;
+    background-image: url("./images/significance-card_5.png");
+}
+.professionalism {
+    top: -50px;
+    right: -50px;
+    width: 190px;
+    height: 190px;
+    background-image: url("./images/significance-card_6.png");
+}
 
 
 
