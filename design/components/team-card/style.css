@@ -1,0 +1,65 @@
+.team-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    row-gap: 60px;
+}
+.team-cards .card {
+    grid-column: span 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 14px;
+    min-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.team-cards .card:nth-child(3) {
+    grid-column: span 3;
+
+}
+.team-cards .card:nth-child(3),
+.team-cards .card:nth-child(2),
+.team-cards .card:nth-child(4) {
+    flex-direction: row;
+    column-gap: 14px;
+}
+.team-cards .card:nth-child(2),
+.team-cards .card:nth-child(4) {
+    grid-column: span 4;
+    justify-content: flex-start;
+}
+.team-cards .card:nth-child(3) {
+    grid-column: 10 / span 3;
+}
+.team-cards .card:nth-child(5) {
+    grid-column: 7 / span 3;
+}
+.team-cards .card:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #6A9E83;
+}
+.team-cards .card img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.team-cards .card:nth-child(2) img,
+.team-cards .card:nth-child(3) img,
+.team-cards .card:nth-child(4) img {
+    width: 130px;
+    height: 100%;
+}
+.team-cards .card .team-personal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}

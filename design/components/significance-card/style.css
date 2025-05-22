@@ -1,5 +1,4 @@
 .significance-cards {
-    grid-column: 1/-1;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;

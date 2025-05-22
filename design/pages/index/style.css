@@ -8,6 +8,7 @@ header .source {
 }
 main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: calc(80px + 100px);
@@ -64,15 +65,17 @@ main h2 {
     align-items: center;
     justify-content: space-between;
     height: 412px;
+    width: 100%;
     margin-bottom: 32px;
 }
-.green-lines__lines {
+.green-lines__bg {
     position: absolute;
-    width: 1023px;
+    width: 100%;
     height: 100%;
+    background-image: url('./images/green-lines.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: left center;
     pointer-events: none;
 }
 .green-lines__points {
@@ -126,14 +129,15 @@ main h2 {
 
 /* significance */
 .significance {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0 40px;
     margin-bottom: 120px;
 }
 .significance .title {
-    grid-column: span 5;
+    align-self: flex-start;
     margin-bottom: 48px;
 }
 
@@ -190,7 +194,32 @@ main h2 {
     background-image: url("./images/significance-card_6.png");
 }
 
-
+/* team */
+.team {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 120px;
+}
+.team-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-image: url("./images/team-bg.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.team .title {
+    align-self: flex-start;
+    margin-bottom: 48px;
+}
 
 
 
