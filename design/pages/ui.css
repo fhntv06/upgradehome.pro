@@ -4,6 +4,7 @@
 .underline {
     padding: 10px 12px;
     border-bottom: 1px solid #fff;
+    text-align: center;
 }
 .underline.active {
     color: #47AA86;

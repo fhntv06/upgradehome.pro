@@ -1,6 +1,9 @@
 .text-container-with-photo {
     margin-bottom: 90px;
 }
+.text-container-with-photo .title {
+    font-family: "Unbounded", sans-serif
+}
 .text-container-with-photo__columns {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -10,7 +13,7 @@
     grid-column: span 6;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
+    row-gap: 24px;
 }
 .text-container-with-photo__column p,
 .text-container-with-photo__column blockquote {
@@ -26,6 +29,9 @@
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+}
+.text-container-with-photo__column .photo.text-container-with-photo--one {
+    grid-column: 1/-1;
 }
 .text-container-with-photo__column .photo .signature {
     width: max-content;

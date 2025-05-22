@@ -1,0 +1,19 @@
+.promotion-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    margin-bottom: 90px;
+}
+.promotion-cards .card {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 20px;
+    background-color: #232323;
+}
+.promotion-cards .card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
