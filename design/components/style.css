@@ -1,5 +1,8 @@
 @import './blog-card/style.css';
 @import './header-inside/style.css';
 @import './main-card/style.css';
+@import './navigation/style.css';
 @import './significance-card/style.css';
-@import './team-card/style.css';
+@import './team-block/style.css';
+@import './text-container/style.css';
+@import './text-container-with-photo/style.css';

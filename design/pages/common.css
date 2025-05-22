@@ -27,6 +27,12 @@ body {
     font-family: "Inter", sans-serif;
     color: #EAEAEA;
 }
+main {
+    margin-top: 124px;
+}
+section {
+    padding: 0 40px;
+}
 .wrapper {
     max-width: 1200px;
     width: 100%;
@@ -52,11 +58,15 @@ p {
     font-size: 16px;
     line-height: 1;
 }
-p.small {
+p.medium {
     font-size: 14px;
     line-height: 1;
 }
-p.extra-small {
+p.extra-medium {
+    font-size: 12px;
+    line-height: 1;
+}
+p.small {
     font-size: 10px;
     line-height: 1;
 }
@@ -68,13 +78,32 @@ p.large {
     font-size: 24px;
     line-height: 1;
 }
+ul {
+    list-style-type: none;
+}
+ol li {
+    position: relative;
+    counter-increment: my-counter; /* Увеличиваем счетчик для каждого li */
+}
+ol li::before {
+    content: counter(my-counter) ") "; /* Выводим счетчик в формате "1) " */
+    position: absolute;
+    left: -20px; /* Сдвигаем влево */
+}
+.gray-deep-dark {
+    color: #767676;
+}
 .gray-dark {
     color: #A7A7A7;
 }
 .gray-light {
     color: #EAEAEA;
 }
-
+blockquote {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px dashed #6A9E83;
+}
 
 
 

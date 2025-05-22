@@ -3,6 +3,9 @@
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
 }
+.significance-cards.significance-cards--column-three .card {
+    grid-column: span 3;
+}
 .significance-cards .card {
     grid-column: span 4;
     position: relative;
@@ -24,4 +27,57 @@
     padding: 4px 12px;
     background-color: #000;
     border-radius: 8px;
+}
+
+/* images card */
+.card__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    pointer-events: none;
+}
+.integrated-approach {
+    top: -50px;
+    right: -50px;
+    width: 184px;
+    height: 185px;
+    background-image: url("../../pages/index/images/significance-card_1.png");
+}
+.innovation {
+    top: -70px;
+    right: -70px;
+    width: 248px;
+    height: 248px;
+    background-image: url("../../pages/index/images/significance-card_2.png");
+}
+.reliability {
+    top: -100px;
+    right: -100px;
+    width: 286px;
+    height: 286px;
+    background-image: url("../../pages/index/images/significance-card_3.png");
+}
+.safety {
+    top: -70px;
+    right: -70px;
+    width: 252px;
+    height: 252px;
+    background-image: url("../../pages/index/images/significance-card_4.png");
+}
+.personalization {
+    top: -50px;
+    right: -50px;
+    width: 191px;
+    height: 191px;
+    background-image: url("../../pages/index/images/significance-card_5.png");
+}
+.professionalism {
+    top: -50px;
+    right: -50px;
+    width: 190px;
+    height: 190px;
+    background-image: url("../../pages/index/images/significance-card_6.png");
 }
