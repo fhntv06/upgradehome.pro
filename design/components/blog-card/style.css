@@ -15,6 +15,7 @@
     grid-template-rows: auto auto;
     place-items: center;
     gap: 20px;
+    transition: opacity 0.12s ease;
 }
 
 .blog-cards .card:hover {
