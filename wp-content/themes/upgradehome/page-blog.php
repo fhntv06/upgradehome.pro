@@ -22,18 +22,18 @@ Author URI:
 Version: 1.0.0
 */
 
-get_header();
+get_header('inside');
 ?>
     <main class="blog-page">
         <!-- NAVIGATION  -->
-        <section>
-            <div class="wrapper">
-                <nav class="navigation">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Главная</a></p>
-                    <p class="extra-medium gray-deep-dark font-semibold">О нас</p>
-                </nav>
-            </div>
-        </section>
+        <?php
+            if (function_exists('yoast_breadcrumb')) {
+                yoast_breadcrumb(
+                    '<section><div class="wrapper"><nav class="navigation">',
+                    '</nav></div></section>'
+                );
+            }
+        ?>
 
         <!-- BLOG CARDS -->
         <section>
@@ -225,4 +225,4 @@ get_header();
         </section>
     </main>
 <?php
-get_footer();
+get_footer('inside');

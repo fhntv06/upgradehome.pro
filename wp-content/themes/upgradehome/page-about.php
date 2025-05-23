@@ -26,14 +26,14 @@ get_header('inside');
 ?>
     <main class="about-page">
         <!-- NAVIGATION  -->
-        <section>
-            <div class="wrapper">
-                <nav class="navigation">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Главная</a></p>
-                    <p class="extra-medium gray-deep-dark font-semibold">О нас</p>
-                </nav>
-            </div>
-        </section>
+        <?php
+            if (function_exists('yoast_breadcrumb')) {
+                yoast_breadcrumb(
+                    '<section><div class="wrapper"><nav class="navigation">',
+                    '</nav></div></section>'
+                );
+            }
+        ?>
 
         <!-- COMPANY  -->
         <section class="text-container">
