@@ -63,17 +63,21 @@
         </div>
         <div class="footer__main__column footer__main__column-clients">
             <p class="extra-medium footer__main__title gray-deep-dark font-semibold">Клиентам</p>
-            <div class="footer__main__menu-clients">
-                <p class="extra-medium gray-light"><a href="/">Команда</a></p>
-                <p class="extra-medium gray-light"><a href="/">Акции</a></p>
-                <p class="extra-medium gray-light"><a href="/">СМИ о нас</a></p>
-                <p class="extra-medium gray-light"><a href="/">Полезные статьи</a></p>
-                <p class="extra-medium gray-light"><a href="/">Прайс</a></p>
-                <p class="extra-medium gray-light"><a href="/">Вакансии</a></p>
-                <p class="extra-medium gray-light"><a href="/">Гарантии</a></p>
-                <p class="extra-medium gray-light"><a href="/">Лицензии</a></p>
-                <p class="extra-medium gray-light"><a href="/">Центр поддержки</a></p>
-            </div>
+            <?php
+                if ( has_nav_menu( 'footer' ) ) {
+                    wp_nav_menu(
+                        [
+                            'container'            => false,
+                            'menu_id'              => 'footer',
+                            'menu_class'           => 'footer__main__menu-clients',
+                            'before'               => '<p class="extra-medium gray-light">',
+                            'after'                => '</p>',
+                            'depth'                => 1,
+                            'theme_location' => 'footer',
+                        ]
+                    );
+                }
+            ?>
         </div>
         <div class="footer__main__column">
             <p class="extra-medium footer__main__title gray-deep-dark font-semibold">Контакты</p>

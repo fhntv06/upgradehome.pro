@@ -31,6 +31,9 @@ footer.footer-inside {
 .footer__main__column-clients {
     grid-column: span 4;
 }
+.footer__main__column-clients .current-menu-item p a {
+    color: #47AA86;
+}
 .footer__main__title {
     margin-bottom: 16px;
     text-transform: uppercase;
