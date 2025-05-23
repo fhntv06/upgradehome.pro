@@ -24,7 +24,7 @@ Version: 1.0.0
 
 get_header('inside');
 ?>
-    <main class="promotions">
+    <main class="promotions-page">
         <!-- NAVIGATION  -->
         <section>
             <div class="wrapper">

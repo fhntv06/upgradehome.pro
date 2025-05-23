@@ -1,0 +1,73 @@
+.blog-cards .cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px 20px;
+}
+
+.blog-cards .card {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: opacity 0.12s ease;
+}
+
+.blog-cards .card:hover {
+    opacity: 80%;
+}
+
+.blog-cards .card .card__image {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.blog-cards .card .card__image .card__image-bg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-cards .card .card-info {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    column-gap: 6px;
+
+    bottom: 10px;
+    left: 10px;
+    user-select: none;
+}
+
+.blog-cards .card .card-info__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.blog-cards .card .card-info__item svg {
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+
+.blog-cards .card .card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog-cards .card .card-details__date {
+    color: #767676;
+}
