@@ -44,6 +44,12 @@
   background-size: contain;
   pointer-events: none;
 }
+.main-cards .card .card__bg.card__bg__img-1 {
+  background-image: url("./images/main-card_1.png");
+}
+.main-cards .card .card__bg.card__bg__img-2 {
+  background-image: url("./images/main-card_2.png");
+}
 .main-cards .card:nth-child(2) .card__bg {
   top: -130px;
   right: -270px;
