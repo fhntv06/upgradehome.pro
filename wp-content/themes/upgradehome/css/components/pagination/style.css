@@ -4,7 +4,7 @@
     column-gap: 6px;
     margin-top: 40px;
 }
-.pagination-button {
+.pagination .page-numbers {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,13 +13,16 @@
     background-color: #fff;
     border-radius: 8px;
     color: #1A1A1A;
+    font-family: "Unbounded", sans-serif;
+    font-size: 14px;
+    line-height: 1;
     border: 2px solid transparent;
     transition: all 0.2s ease;
     overflow: visible;
 }
-.pagination-button:hover,
-.pagination-button.active,
-.pagination-button[active] {
+.pagination .page-numbers:hover,
+.pagination .page-numbers.current,
+.pagination .page-numbers[current] {
     border-color: #fff;
     background-color: transparent;
     color: #fff;
