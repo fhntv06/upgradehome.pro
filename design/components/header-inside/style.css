@@ -22,6 +22,9 @@
 .header__menu p {
     text-transform: uppercase;
 }
+.header__menu p.active a {
+    color: #47AA86;
+}
 .header hr {
     height: 1px;
     width: 100%;
