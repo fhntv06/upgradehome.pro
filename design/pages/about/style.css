@@ -1,11 +1,11 @@
 @import "../common.css";
 @import "../ui.css";
 
-.about .significance-cards {
+.about-page .significance-cards {
     margin-bottom: 90px;
 }
 
 /* TEAM */
-.about .team {
+.about-page .team {
     margin-bottom: 90px;
 }
