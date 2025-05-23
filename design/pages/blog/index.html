@@ -126,7 +126,8 @@
                 </div>
             </div>
         </header>
-        <main class="blog">
+
+        <main class="blog-page">
             <!-- NAVIGATION  -->
             <section>
                 <div class="wrapper">
@@ -140,11 +141,11 @@
             <!-- BLOG CARDS -->
             <section>
                 <div class="wrapper">
-                    <section class="blog-cards">
+                    <div class="blog-cards">
                         <div class="cards">
                             <a class="card" href="#">
-                                <div class="card-image">
-                                    <div class="card-image__bg" style="background-image: url('./images/clever-house.png')"></div>
+                                <div class="card__image">
+                                    <div class="card__image-bg" style="background-image: url('./images/clever-house.png')"></div>
                                     <div class="card-info">
                                         <div class="card-info__item" title="Лайки">
                                             <svg viewBox="0 0 24 24">
@@ -152,7 +153,7 @@
                                                     d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
                                                 />
                                             </svg>
-                                            <span>128</span>
+                                            <p class="font-unbounded extra-medium">128</p>
                                         </div>
                                         <div class="card-info__item" title="Просмотры">
                                             <svg viewBox="0 0 24 24">
@@ -160,25 +161,25 @@
                                                     d="M12 6a9.77 9.77 0 0 0-9 6 9.77 9.77 0 0 0 18 0 9.77 9.77 0 0 0-9-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
                                                 />
                                             </svg>
-                                            <span>3.4k</span>
+                                            <p class="font-unbounded extra-medium">3.4k</p>
                                         </div>
                                         <div class="card-info__item" title="Длительность">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm.5-13h-1v6l5.25 3.15.75-1.23-4.5-2.67z" />
                                             </svg>
-                                            <span>11 минут</span>
+                                            <p class="font-unbounded extra-medium">11 минут</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-details">
                                     <p class="small font-semibold card-details__date">24.05.25</p>
-                                    <p class="big card-details__title">Заголовок</p>
-                                    <p class="medium card-details__desc">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
+                                    <p class="big">Заголовок</p>
+                                    <p class="medium">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
                                 </div>
                             </a>
                             <a class="card" href="#">
-                                <div class="card-image">
-                                    <div class="card-image__bg" style="background-image: url('./images/clever-house.png')"></div>
+                                <div class="card__image">
+                                    <div class="card__image-bg" style="background-image: url('./images/clever-house.png')"></div>
                                     <div class="card-info">
                                         <div class="card-info__item" title="Лайки">
                                             <svg viewBox="0 0 24 24">
@@ -186,7 +187,7 @@
                                                     d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
                                                 />
                                             </svg>
-                                            <span>128</span>
+                                            <p class="font-unbounded extra-medium">128</p>
                                         </div>
                                         <div class="card-info__item" title="Просмотры">
                                             <svg viewBox="0 0 24 24">
@@ -194,25 +195,25 @@
                                                     d="M12 6a9.77 9.77 0 0 0-9 6 9.77 9.77 0 0 0 18 0 9.77 9.77 0 0 0-9-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
                                                 />
                                             </svg>
-                                            <span>3.4k</span>
+                                            <p class="font-unbounded extra-medium">3.4k</p>
                                         </div>
                                         <div class="card-info__item" title="Длительность">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm.5-13h-1v6l5.25 3.15.75-1.23-4.5-2.67z" />
                                             </svg>
-                                            <span>11 минут</span>
+                                            <p class="font-unbounded extra-medium">11 минут</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-details">
                                     <p class="small font-semibold card-details__date">24.05.25</p>
-                                    <p class="big card-details__title">Заголовок</p>
-                                    <p class="medium card-details__desc">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
+                                    <p class="big">Заголовок</p>
+                                    <p class="medium">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
                                 </div>
                             </a>
                             <a class="card" href="#">
-                                <div class="card-image">
-                                    <div class="card-image__bg" style="background-image: url('./images/clever-house.png')"></div>
+                                <div class="card__image">
+                                    <div class="card__image-bg" style="background-image: url('./images/clever-house.png')"></div>
                                     <div class="card-info">
                                         <div class="card-info__item" title="Лайки">
                                             <svg viewBox="0 0 24 24">
@@ -220,7 +221,7 @@
                                                     d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
                                                 />
                                             </svg>
-                                            <span>128</span>
+                                            <p class="font-unbounded extra-medium">128</p>
                                         </div>
                                         <div class="card-info__item" title="Просмотры">
                                             <svg viewBox="0 0 24 24">
@@ -228,25 +229,25 @@
                                                     d="M12 6a9.77 9.77 0 0 0-9 6 9.77 9.77 0 0 0 18 0 9.77 9.77 0 0 0-9-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
                                                 />
                                             </svg>
-                                            <span>3.4k</span>
+                                            <p class="font-unbounded extra-medium">3.4k</p>
                                         </div>
                                         <div class="card-info__item" title="Длительность">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm.5-13h-1v6l5.25 3.15.75-1.23-4.5-2.67z" />
                                             </svg>
-                                            <span>11 минут</span>
+                                            <p class="font-unbounded extra-medium">11 минут</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-details">
                                     <p class="small font-semibold card-details__date">24.05.25</p>
-                                    <p class="big card-details__title">Заголовок</p>
-                                    <p class="medium card-details__desc">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
+                                    <p class="big">Заголовок</p>
+                                    <p class="medium">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
                                 </div>
                             </a>
                             <a class="card" href="#">
-                                <div class="card-image">
-                                    <div class="card-image__bg" style="background-image: url('./images/clever-house.png')"></div>
+                                <div class="card__image">
+                                    <div class="card__image-bg" style="background-image: url('./images/clever-house.png')"></div>
                                     <div class="card-info">
                                         <div class="card-info__item" title="Лайки">
                                             <svg viewBox="0 0 24 24">
@@ -254,7 +255,7 @@
                                                     d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
                                                 />
                                             </svg>
-                                            <span>128</span>
+                                            <p class="font-unbounded extra-medium">128</p>
                                         </div>
                                         <div class="card-info__item" title="Просмотры">
                                             <svg viewBox="0 0 24 24">
@@ -262,25 +263,25 @@
                                                     d="M12 6a9.77 9.77 0 0 0-9 6 9.77 9.77 0 0 0 18 0 9.77 9.77 0 0 0-9-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
                                                 />
                                             </svg>
-                                            <span>3.4k</span>
+                                            <p class="font-unbounded extra-medium">3.4k</p>
                                         </div>
                                         <div class="card-info__item" title="Длительность">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm.5-13h-1v6l5.25 3.15.75-1.23-4.5-2.67z" />
                                             </svg>
-                                            <span>11 минут</span>
+                                            <p class="font-unbounded extra-medium">11 минут</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-details">
                                     <p class="small font-semibold card-details__date">24.05.25</p>
-                                    <p class="big card-details__title">Заголовок</p>
-                                    <p class="medium card-details__desc">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
+                                    <p class="big">Заголовок</p>
+                                    <p class="medium">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
                                 </div>
                             </a>
                             <a class="card" href="#">
-                                <div class="card-image">
-                                    <div class="card-image__bg" style="background-image: url('./images/clever-house.png')"></div>
+                                <div class="card__image">
+                                    <div class="card__image-bg" style="background-image: url('./images/clever-house.png')"></div>
                                     <div class="card-info">
                                         <div class="card-info__item" title="Лайки">
                                             <svg viewBox="0 0 24 24">
@@ -288,7 +289,7 @@
                                                     d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
                                                 />
                                             </svg>
-                                            <span>128</span>
+                                            <p class="font-unbounded extra-medium">128</p>
                                         </div>
                                         <div class="card-info__item" title="Просмотры">
                                             <svg viewBox="0 0 24 24">
@@ -296,37 +297,37 @@
                                                     d="M12 6a9.77 9.77 0 0 0-9 6 9.77 9.77 0 0 0 18 0 9.77 9.77 0 0 0-9-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
                                                 />
                                             </svg>
-                                            <span>3.4k</span>
+                                            <p class="font-unbounded extra-medium">3.4k</p>
                                         </div>
                                         <div class="card-info__item" title="Длительность">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm.5-13h-1v6l5.25 3.15.75-1.23-4.5-2.67z" />
                                             </svg>
-                                            <span>11 минут</span>
+                                            <p class="font-unbounded extra-medium">11 минут</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-details">
                                     <p class="small font-semibold card-details__date">24.05.25</p>
-                                    <p class="big card-details__title">Заголовок</p>
-                                    <p class="medium card-details__desc">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
+                                    <p class="big">Заголовок</p>
+                                    <p class="medium">С развитием технологий каждое новое открытие становится значительным шагом вперёд.</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="pagination"></div>
-                    </section>
-                    <section class="blog-pagination">
-                        <div class="pagination">
-                            <a class="pagination-button" href="#">1</a>
-                            <a class="pagination-button" href="#">2</a>
-                            <a class="pagination-button" href="#">3</a>
-                            <a class="pagination-button" href="#">4</a>
-                            <a class="pagination-button" href="#">...</a>
+                        <div class="blog-pagination">
+                            <div class="pagination">
+                                <p class="font-unbounded medium"><a class="pagination-button active" href="#">1</a></p>
+                                <p class="font-unbounded medium"><a class="pagination-button" href="#">2</a></p>
+                                <p class="font-unbounded medium"><a class="pagination-button" href="#">3</a></p>
+                                <p class="font-unbounded medium"><a class="pagination-button" href="#">4</a></p>
+                                <p class="font-unbounded medium"><a class="pagination-button" href="#">...</a></p>
+                            </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </section>
         </main>
+
         <footer class="footer footer-inside">
             <div class="footer__header">
                 <div class="footer__logo">
