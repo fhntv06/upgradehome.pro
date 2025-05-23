@@ -64,49 +64,6 @@
         </div>
         <hr />
         <div class="header__footer">
-            <div class="header__significance-menu">
-                <div class="header__significance-menu__item header__significance-menu__item--no-empty">
-                    <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Оборудование</a></p>
-                    <svg class="item__arrow" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.1391 9.64804C7.82747 10.1173 7.17253 10.1173 6.8609 9.64804L4.64447 6.3104C4.27883 5.7598 4.6494 5 5.28357 5L9.71643 5C10.3506 5 10.7212 5.7598 10.3555 6.3104L8.1391 9.64804Z" />
-                    </svg>
-                    <div class="header__significance-menu__items">
-                        <p class="extra-medium font-semibold"><a href="" class="extra-medium gray-deep-dark">Оборудование 1</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="extra-medium gray-deep-dark">Оборудование 2</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="extra-medium gray-deep-dark">Оборудование 3</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="extra-medium gray-deep-dark">Оборудование 4</a></p>
-                    </div>
-                </div>
-                <div class="header__significance-menu__item header__significance-menu__item--no-empty">
-                    <p class="extra-medium"><a href="" class="extra-medium gray-deep-dark">Умный дом</a></p>
-                    <svg class="item__arrow" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.1391 9.64804C7.82747 10.1173 7.17253 10.1173 6.8609 9.64804L4.64447 6.3104C4.27883 5.7598 4.6494 5 5.28357 5L9.71643 5C10.3506 5 10.7212 5.7598 10.3555 6.3104L8.1391 9.64804Z" />
-                    </svg>
-                    <div class="header__significance-menu__items">
-                        <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Умный дом</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Умный дом</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Умный дом</a></p>
-                        <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Умный дом</a></p>
-                    </div>
-                </div>
-                <div class="header__significance-menu__item">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Вентиляция</a></p>
-                </div>
-                <div class="header__significance-menu__item">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Пожарная безопасность</a></p>
-                </div>
-                <div class="header__significance-menu__item">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Мультимедийная</a> система</p>
-                </div>
-                <div class="header__significance-menu__item">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Видеонаблюдение</a></p>
-                </div>
-                <div class="header__significance-menu__item">
-                    <p class="extra-medium font-semibold"><a href="/" class="gray-deep-dark">Увлажнение</a></p>
-                    <div class="header__significance-menu__items">
-                        <p class="extra-medium font-semibold"><a href="" class="gray-deep-dark">Увлажнение</a></p>
-                    </div>
-                </div>
-            </div>
+        <?php display_categories_with_posts() ?>
         </div>
     </header>

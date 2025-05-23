@@ -43,6 +43,9 @@
     justify-content: space-between;
     width: 100%;
 }
+.header__significance-menu .current-cat {
+    color: #47AA86;
+}
 .header__significance-menu__item {
     position: relative;
 }
@@ -50,7 +53,10 @@
     display: flex;
     align-items: center;
 }
-.header__significance-menu__item p {
+.header__significance-menu p a,
+.header__significance-menu p {
+    font-size: 12px;
+    line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
     color: #767676;
@@ -75,14 +81,13 @@
     width: 1px;
     background-color: #47AA86;
 }
-.header__significance-menu__item:hover a {
+.header__significance-menu__item p:hover a {
     color: #fff;
 }
 .item__arrow {
     fill: #767676;
 }
 .header__significance-menu__item:hover .item__arrow {
-    fill: #fff;
     transform: rotateZ(180deg);
 }
 .header__significance-menu__item:hover .header__significance-menu__items {

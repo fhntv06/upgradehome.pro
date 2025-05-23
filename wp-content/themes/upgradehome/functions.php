@@ -51,6 +51,7 @@ function upgradehome_setup() {
 	register_nav_menus(
 		array(
             'header' => esc_html__( 'header', 'upgradehome' ),
+            'rubrics' => esc_html__( 'rubrics', 'upgradehome' ),
             'footer' => esc_html__( 'footer', 'upgradehome' ),
 		)
 	);
@@ -186,3 +187,41 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function display_categories_with_posts() {
+    $args = array(
+        'hide_empty' => true, // Показывать даже пустые рубрики
+        'parent'     => 0      // Только родительские рубрики
+    );
+    $categories = get_categories($args);
+    $result = '';
+
+    if ($categories) {
+        $result .= '<ul class="header__significance-menu">';
+        foreach ($categories as $category) {
+            // Получаем записи этой рубрики
+            $posts = get_posts(array(
+                'category' => $category->term_id,
+                'numberposts' => 5 // Ограничить кол-во записей (по желанию)
+            ));
+
+            $result .= $posts
+                ? '<li class="header__significance-menu__item header__significance-menu__item--no-empty">'
+                : '<li class="header__significance-menu__item">';
+
+            $result .= '<p class="extra-medium font-semibold gray-deep-dark">' . esc_html($category->name) . '</p>';
+
+            if ($posts) {
+                $result .= '<svg class="item__arrow" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.1391 9.64804C7.82747 10.1173 7.17253 10.1173 6.8609 9.64804L4.64447 6.3104C4.27883 5.7598 4.6494 5 5.28357 5L9.71643 5C10.3506 5 10.7212 5.7598 10.3555 6.3104L8.1391 9.64804Z" /></svg>';
+                $result .= '<ul class="header__significance-menu__items">';
+                foreach ($posts as $post) {
+                    $result .= '<li class="header__significance-menu__item"><p class="extra-medium font-semibold"><a href="' . get_permalink($post->ID) . '">' . esc_html($post->post_title) . '</a></p></li>';
+                }
+                $result .= '</ul>';
+            }
+
+            $result .= '</li>';
+        }
+
+        echo $result;
+    }
+}
