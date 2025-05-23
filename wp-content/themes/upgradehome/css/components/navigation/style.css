@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    margin-bottom: 24px;
+}
+.navigation p:not(:last-child) {
+    position: relative;
+    margin-right: 20px;
+}
+.navigation p:not(:last-child):after {
+    content: '/';
+    position: absolute;
+    top: 0;
+    left: calc(100% + 10px);
+    width: 5px;
+    height: 15px;
+    color: #767676;
+}
