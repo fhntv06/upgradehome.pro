@@ -51,6 +51,9 @@ footer.footer-inside {
 .footer__main__menu-clients p {
     width: max-content;
 }
+.footer__main__column-clients a:hover {
+    color: #47AA86;
+}
 .footer__footer {
     display: flex;
     width: 100%;

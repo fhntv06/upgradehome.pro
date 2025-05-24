@@ -6,6 +6,9 @@ header .source {
     top: 22px;
     right: 40px;
 }
+.main-page {
+    margin-top: 0;
+}
 .main-page h1 {
     z-index: 2;
     position: relative;

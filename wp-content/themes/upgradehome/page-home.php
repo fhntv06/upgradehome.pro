@@ -24,7 +24,7 @@ Version: 1.0.0
 
 get_header();
 ?>
-    <main class="main">
+    <main class="main-page">
         <!-- HERO -->
         <div class="hero-bg">
             <div class="hero-bg-1"></div>
@@ -34,7 +34,7 @@ get_header();
             <div class="wrapper">
                 <div class="hero__content">
                     <p class="hero-prefix medium">Умный дом</p>
-                    <h1>Умные решения для&nbsp;вашего дома</h1>
+                    <h1 class="font-unbounded font-medium h1-large">Умные решения для&nbsp;вашего дома</h1>
                     <div class="hero-tabs">
                         <p class="underline active">Подобрать решение</p>
                         <p class="underline">Задать вопрос</p>
@@ -53,13 +53,13 @@ get_header();
             <div class="wrapper">
                 <div class="main-cards">
                     <div class="card">
-                        <div class="card__bg card__bg__img-1"></div>
-                        <h3 class="title">Мы создаём</h3>
+                        <div class="card__bg" style="background-image: url('/wp-content/themes/upgradehome/images/main-card_1.png')"></div>
+                        <h3 class="title font-unbounded font-medium">Мы создаём</h3>
                         <p class="description">Мы создаём современные, безопасные и комфортные пространства, интегрируя передовые технологии в каждый дом и квартиру.</p>
                     </div>
                     <div class="card">
-                        <div class="card__bg card__bg__img-2"></div>
-                        <h3 class="title">Наша цель</h3>
+                        <div class="card__bg" style="background-image: url('/wp-content/themes/upgradehome/images/main-card_2.png')"></div>
+                        <h3 class="title font-unbounded font-medium">Наша цель</h3>
                         <p class="description">Сделать ваш дом умнее, тише и безопаснее, чтобы вы могли наслаждаться жизнью без лишних забот.</p>
                     </div>
                 </div>

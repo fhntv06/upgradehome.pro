@@ -3,6 +3,9 @@ header .source {
     top: 22px;
     right: 40px;
 }
+.main-page {
+    margin-top: 0;
+}
 .main-page h1 {
     z-index: 2;
     position: relative;
@@ -35,11 +38,11 @@ header .source {
 }
 .hero-bg .hero-bg-1 {
     left: -281px;
-    background-image: url("./images/hero-bg_1.png");
+    background-image: url("/wp-content/themes/upgradehome/images/hero-bg_1.png");
 }
 .hero-bg .hero-bg-2 {
     right: -250px;
-    background-image: url("./images/hero-bg_1.png");
+    background-image: url("/wp-content/themes/upgradehome/images/hero-bg_1.png");
 }
 .hero-bg .hero-bg-1,
 .hero-bg .hero-bg-2 {
@@ -88,7 +91,7 @@ header .source {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('./images/green-lines.png');
+    background-image: url('/wp-content/themes/upgradehome/images/green-lines.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left center;

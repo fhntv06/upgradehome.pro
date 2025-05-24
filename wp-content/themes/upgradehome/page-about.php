@@ -180,23 +180,27 @@ get_header('inside');
 
         <!--   TEXT CONTAINER WITH PHOTO   -->
         <section class="text-container-with-photo">
-            <div class="text-container-with-photo__columns wrapper">
-                <div class="text-container-with-photo__column">
-                    <p class="gray-light">С развитием технологий каждое новое открытие становится значительным шагом вперёд. Современные решения находят применение в различных сферах жизни, улучшая качество и ускоряя процессы. Важно быть в курсе тенденций, чтобы не упустить новые возможности.</p>
-                    <blockquote>
-                        <p class="gray-light">Никогда не стойте на месте. Идите вперёд, даже если путь кажется трудным. Главное — не останавливаться и верить в успех.</p>
-                    </blockquote>
-                    <p class="gray-light">Сотрудничество и обмен опытом становится ключевыми факторами в успешной реализации проектов. Совместные усилия ведут к более быстрым и эффективным решениям, открывая новые горизонты для развития. Постоянное обучение и адаптация к изменениям — залог успешного будущего.</p>
-                </div>
-                <div class="text-container-with-photo__column">
-                    <div class="photo" style="background-image: url('/wp-content/themes/upgradehome/images/text-container-with-photo_1.jpg')">
-                        <div class="signature">
-                            <p class="extra-medium">Подпись к фото</p>
+            <div class="wrapper">
+                <div class="text-container-with-photo__columns">
+                    <div class="text-container-with-photo__column text-container-with-photo__column-2">
+                        <p class="gray-light">С развитием технологий каждое новое открытие становится значительным шагом вперёд. Современные решения находят применение в различных сферах жизни, улучшая качество и ускоряя процессы. Важно быть в курсе тенденций, чтобы не упустить новые возможности.</p>
+                        <blockquote>
+                            <p class="gray-light">Никогда не стойте на месте. Идите вперёд, даже если путь кажется трудным. Главное — не останавливаться и верить в успех.</p>
+                        </blockquote>
+                        <p class="gray-light">Сотрудничество и обмен опытом становится ключевыми факторами в успешной реализации проектов. Совместные усилия ведут к более быстрым и эффективным решениям, открывая новые горизонты для развития. Постоянное обучение и адаптация к изменениям — залог успешного будущего.</p>
+                    </div>
+                    <div class="text-container-with-photo__column text-container-with-photo__column-4">
+                        <div class="photo" style="background-image: url('/wp-content/themes/upgradehome/images/text-container-with-photo_1.jpg')">
+                            <div class="signature">
+                                <p class="extra-medium">Подпись к фото</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="photo" style="background-image: url('/wp-content/themes/upgradehome/images/text-container-with-photo_2.jpg')">
-                        <div class="signature">
-                            <p class="extra-medium">Подпись к фото</p>
+                    <div class="text-container-with-photo__column text-container-with-photo__column-4">
+                        <div class="photo" style="background-image: url('/wp-content/themes/upgradehome/images/text-container-with-photo_2.jpg')">
+                            <div class="signature">
+                                <p class="extra-medium">Подпись к фото</p>
+                            </div>
                         </div>
                     </div>
                 </div>

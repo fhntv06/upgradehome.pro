@@ -40,9 +40,6 @@ main {
     margin-top: 154px;
     overflow: hidden;
 }
-.main {
-    margin-top: 0;
-}
 section {
     display: flex;
     align-items: center;

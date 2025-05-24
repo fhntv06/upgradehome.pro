@@ -22,7 +22,9 @@
 .header__menu p {
     text-transform: uppercase;
 }
-.header__menu p.active a {
+.header__menu p.active a,
+.header__menu p.current-menu-item a,
+.header__menu p a:hover {
     color: #47AA86;
 }
 .header hr {
@@ -75,14 +77,16 @@
     width: 1px;
     background-color: #47AA86;
 }
-.header__significance-menu__item:hover a {
+.header__significance-menu__item a {
+    color: #767676;
+}
+.header__significance-menu__item a:hover {
     color: #fff;
 }
 .item__arrow {
     fill: #767676;
 }
 .header__significance-menu__item:hover .item__arrow {
-    fill: #fff;
     transform: rotateZ(180deg);
 }
 .header__significance-menu__item:hover .header__significance-menu__items {
