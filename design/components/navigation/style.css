@@ -2,16 +2,25 @@
     display: flex;
     margin-bottom: 24px;
 }
-.navigation p:not(:last-child) {
+.navigation p:not(:last-child),
+.navigation span:not(:last-child) {
     position: relative;
     margin-right: 20px;
 }
-.navigation p:not(:last-child):after {
+.navigation p:not(:last-child):after,
+.navigation span:not(:last-child):after {
     content: '/';
     position: absolute;
     top: 0;
     left: calc(100% + 10px);
     width: 5px;
     height: 15px;
+}
+.navigation p,
+.navigation span,
+.navigation a {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
     color: #767676;
 }
