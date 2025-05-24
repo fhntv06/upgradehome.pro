@@ -1,0 +1,69 @@
+.banner {
+    position: relative;
+    margin-bottom: 60px;
+}
+.banner .banner-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+}
+.banner-bg__figure-1,
+.banner-bg__figure-2,
+.banner-bg__figure-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.banner-bg__figure-1 {
+    top: -80px;
+    right: -60px;
+    width: 552px;
+    height: 379px;
+}
+.banner-bg__figure-2 {
+    top: 30px;
+    left: 120px;
+    width: 54px;
+    height: 54px;
+}
+.banner-bg__figure-3 {
+    top: unset;
+    left: 0;
+    bottom: -50px;
+    width: 208px;
+    height: 208px;
+
+}
+
+.banner .banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.banner__content__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.banner .banner__description {
+    max-width: 460px;
+}
+.banner .banner__steps {
+    display: flex;
+    column-gap: 12px;
+}
+.banner .banner__step {
+    text-align: center;
+    padding: 4px 12px;
+    background-color: #000;
+    border-radius: 8px;
+}
