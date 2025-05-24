@@ -58,16 +58,24 @@ a {
     text-decoration: none;
     height: max-content;
 }
-h1 {
+h1, .h1 {
+    font-size: 42px;
+    line-height: 1;
+}
+.h1-large {
     font-size: 76px;
     line-height: 1;
 }
-h2 {
-    font-size: 40px;
+h2, .h2 {
+    font-size: 32px;
     line-height: 1;
 }
 h3 {
-    font-size: 32px;
+    font-size: 24px;
+    line-height: 1;
+}
+h4 {
+    font-size: 20px;
     line-height: 1;
 }
 p.large {
@@ -99,16 +107,19 @@ p.small {
     font-size: 10px;
     line-height: 1;
 }
-p.font-unbounded {
+.font-unbounded {
     font-family: "Unbounded", sans-serif;
 }
-p.font-regular {
+.font-regular {
     font-weight: 300;
 }
-p.font-semibold {
+.font-medium {
+    font-weight: 400;
+}
+.font-semibold {
     font-weight: 700;
 }
-p.font-bold {
+.font-bold {
     font-weight: bold;
 }
 
@@ -132,6 +143,12 @@ ol li::before {
 }
 .gray-light {
     color: #EAEAEA;
+}
+.color-white {
+    color: #fff;
+}
+.color-black {
+    color: #000;
 }
 blockquote {
     border-radius: 10px;

@@ -97,7 +97,7 @@ get_header();
         <!--   SIGNIFICANCE   -->
         <section class="significance">
             <div class="wrapper">
-                <h2 class="title">Ценности UpGrade Home</h2>
+                <h2 class="title h1">Ценности UpGrade Home</h2>
                 <div class="significance-cards">
                     <div class="card">
                         <div class="card__bg integrated-approach"></div>
@@ -137,7 +137,7 @@ get_header();
         <section class="team">
             <div class="team-bg"></div>
             <div class="wrapper">
-                <h2 class="title">Наша команда</h2>
+                <h2 class="title h1">Наша команда</h2>
                 <div class="team-cards wrapper">
                     <div class="card">
                         <img src="/wp-content/themes/upgradehome/images/team-card_1.jpg" alt="Генеральный директор">

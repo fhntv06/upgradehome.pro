@@ -3,19 +3,13 @@ header .source {
     top: 22px;
     right: 40px;
 }
-main h1 {
+.main-page h1 {
     z-index: 2;
     position: relative;
     margin-top: 40px;
     margin-bottom: 80px;
-    color: #EAEAEA;
     text-align: center;
     mix-blend-mode: difference;
-}
-main h1,
-main h2 {
-    font-family: "Unbounded", sans-serif;
-    font-weight: 400;
 }
 .hero {
     position: relative;
