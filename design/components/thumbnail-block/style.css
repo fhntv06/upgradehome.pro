@@ -1,0 +1,20 @@
+.thumbnail {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thumbnail__tags {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+}
+.thumbnail__tag {
+    padding: 4px 12px;
+    background-color: #000000;
+    border-radius: 8px;
+    text-align: center;
+}
