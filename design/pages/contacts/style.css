@@ -1,0 +1,61 @@
+@import "../common.css";
+@import "../ui.css";
+
+.contacts-page .contacts {
+    margin-bottom: 90px;
+}
+.contacts-page .contacts h2 {
+    margin-bottom: 24px;
+}
+.contacts__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    grid-row-gap: 24px;
+}
+.contacts__content__header,
+.contacts__content__footer {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+.contacts__header__column {
+    grid-column: 1/-1;
+}
+.contacts__header__column.contacts__header__column-2 {
+    grid-column: span 6;
+}
+.contacts__header__column.contacts__header__column-3 {
+    grid-column: span 4;
+}
+.contacts__header__column.contacts__header__column-4 {
+    grid-column: span 3;
+}
+.contacts__column__title {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.contacts__column__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.contacts__column__content a:hover {
+    color: #47AA86;
+}
+.contacts__socials {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 8px;
+}
+.contacts__blockquote {
+    max-width: 455px;
+}
+.contacts__content__footer {
+    border-radius: 10px;
+}
+.contacts__content__footer img {
+    grid-column: 1/-1;
+    width: 100%;
+}
