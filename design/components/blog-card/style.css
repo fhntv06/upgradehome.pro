@@ -4,6 +4,21 @@
     gap: 40px 20px;
 }
 
+.blog-cards {
+    /* height: 814px; */
+    max-height: 1200px;
+}
+
+@media screen and (max-width: 320px) {
+    .blog-cards .cards {
+        grid-template-columns: none;
+    }
+
+    .blog-cards .card {
+        grid-column: span 12;
+    }
+}
+
 .blog-cards .card {
     grid-column: span 4;
     display: flex;
