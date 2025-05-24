@@ -1,5 +1,5 @@
 .text-container-with-photo {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 .text-container-with-photo .title {
     font-family: "Unbounded", sans-serif
@@ -10,19 +10,29 @@
     column-gap: 20px;
 }
 .text-container-with-photo__column {
-    grid-column: span 6;
+    grid-column: 1/-1;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    row-gap: 24px;
+    gap: 24px 20px;
+}
+.text-container-with-photo__column.text-container-with-photo__column-2 {
+    grid-column: span 6;
+}
+.text-container-with-photo__column.text-container-with-photo__column-3 {
+    grid-column: span 4;
+}
+.text-container-with-photo__column.text-container-with-photo__column-4 {
+    grid-column: span 3;
 }
 .text-container-with-photo__column p,
 .text-container-with-photo__column blockquote {
     grid-column: 1/-1;
 }
-.text-container-with-photo__column .photo {
-    grid-column: span 3;
+.text-container-with-photo__columns .photo {
+    grid-column: 1/-1;
     display: flex;
     height: 100%;
+    min-height: 282px;
     padding: 8px;
     border-radius: 10px;
     background-size: cover;

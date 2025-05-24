@@ -1,9 +1,8 @@
 .text-container {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     font-weight: 200;
 }
 .text-container__title {
-    font-family: "Unbounded", sans-serif;
     margin-bottom: 32px;
 }
 .text-container__columns {

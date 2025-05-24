@@ -22,10 +22,6 @@
 .main-cards .card:hover {
   background-color: #353535;
 }
-.main-cards .card .title {
-  font-family: "Unbounded", sans-serif;
-  font-weight: 400;
-}
 .main-cards .card .description {
   width: 360px;
 }

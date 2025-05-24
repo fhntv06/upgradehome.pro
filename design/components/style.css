@@ -1,3 +1,4 @@
+@import './banner-block/style.css';
 @import './blog-card/style.css';
 @import './pagination/style.css';
 @import './footer-inside/style.css';
@@ -9,3 +10,5 @@
 @import './team-block/style.css';
 @import './text-container/style.css';
 @import './text-container-with-photo/style.css';
+@import './thumbnail-block/style.css';
+@import './video-block/style.css';

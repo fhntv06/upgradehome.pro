@@ -3,6 +3,7 @@ footer .footer__footer p a {
 }
 footer.footer-inside {
     row-gap: 30px;
+    margin-top: 30px;
 }
 .footer .footer__header {
     display: flex;
