@@ -1,6 +1,12 @@
 @import "../common.css";
 @import "../ui.css";
 
+.article-page {
+    background-image: url(./images/team-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-size: 40% 20%;
+}
 .article-page .article h1 {
     margin-bottom: 24px;
 }

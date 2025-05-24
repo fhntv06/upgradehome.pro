@@ -1,5 +1,4 @@
 .banner {
-    position: relative;
     margin-bottom: 60px;
 }
 .banner .banner-bg {
@@ -21,7 +20,7 @@
 }
 .banner-bg__figure-1 {
     top: -80px;
-    right: -60px;
+    right: -100px;
     width: 552px;
     height: 379px;
 }
@@ -41,6 +40,7 @@
 }
 
 .banner .banner__content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
