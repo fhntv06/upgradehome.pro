@@ -3,12 +3,24 @@
     max-height: 1200px;
 }
 
+<<<<<<< Updated upstream
 .blog-cards .cards {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 40px 60px;
     align-items: start;
   }
+=======
+@media screen and (max-width: 320px) {
+    .blog-cards .cards {
+        grid-template-columns: none;
+    }
+
+    .blog-cards .card {
+        grid-column: span 12;
+    }
+}
+>>>>>>> Stashed changes
 
 .blog-cards .card {
     display: grid;
