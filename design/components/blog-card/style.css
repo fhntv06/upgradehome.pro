@@ -52,9 +52,9 @@
 .blog-cards .card .card-info {
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(12, auto);
     align-items: center;
-    column-gap: 6px;
+    gap: 2px 6px;
 
     bottom: 10px;
     left: 10px;

@@ -1,0 +1,20 @@
+@import "../common.css";
+@import "../ui.css";
+
+.blog-detail {
+    margin-bottom: 90px;
+}
+
+.blog-detail__image {
+    margin-bottom: 40px;
+}
+
+.blog-detail__image .card .card__image {
+    height: 390px;
+}
+
+@media screen and (max-width: 320px) {
+    .blog-detail__image .card__image {
+         height: 220;
+    }
+}
